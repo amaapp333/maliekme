@@ -2,7 +2,7 @@
 [![GoogleAMP](http://i.imgur.com/wX89Pfc.png)](https://www.ampproject.org/)
 
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/amaapp333/maliekme)
 
 # An AMP-first, mobile responsive WordPress theme for blogging that you can use for free on your projects
 
@@ -10,9 +10,9 @@
 
 It's early days for AMP and as such there isn't any WordPress themes that use the technology by default. We've decided to give it a go and built a simple, elegant theme you can use for your blogging. Open source and available for anyone to contribute.
 
-Download, use for free and just have fun with it. You can check out the demo over at [http://amp.jessehanley.com/](http://amp.jessehanley.com/) ⚡️
+Download, use for free and just have fun with it. You can check out the demo over at [http://www.adball.online/](http://www.adball.online/) ⚡️
 
-Follow [@jessethanley](https://twitter.com/jessethanley) and direct message for any feature requests.
+Follow [@MaliekGalant](https://www.facebook.com/maliekgalant) and direct message for any feature requests.
 
 ## Installation
 
@@ -38,7 +38,7 @@ Done! It'll now update automatically when we push our changes to GitHub, ensurin
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/jessehanley/wordpress-amp-theme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/amaapp333/maliekme. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
