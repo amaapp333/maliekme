@@ -1,0 +1,10 @@
+{
+    "name": "maliekme/examples",
+    "homepage": "http://packages.adball.online",
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/amaapp333/maliekme" },
+        { "type": "vcs", "url": "http://svn.example.org/private/repo" },
+        { "type": "vcs", "url": "https://github.com/amaapp333/maliekme" }
+    ],
+    "require-all": true
+}
