@@ -2,7 +2,7 @@
 <html ⚡ lang="en">
 <head>
 <meta charset="utf-8">
-  <title>amp-sticky-ad</title>
+  <title>Maliek News</title>
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   <!-- ## Basic usage -->
   <!--
@@ -20,40 +20,39 @@
     </style>
 </head>
 <body>
-  <!-- ## Basic usage -->
+<body>
   <!--
-    The `amp-lightbox` component defines the child elements that will be displayed in a full-viewport overlay.
-    To close the lightbox via click or tap use the `on` attribute on one or more elements inside the lightbox. In this example the user can click anywhere in the lightbox to close it.
-
-    The lighbox is shown when the user taps or clicks on an element with `on` attribute that targets the id of an `amp-lightbox` element.
-  -->
-  <div>
-    <amp-lightbox id="my-lightbox" layout="nodisplay">
-      <div class="lightbox" on="tap:my-lightbox.close" role="button" tabindex="0">
-        <h1>Hello World!</h1>
-      </div>
-    </amp-lightbox>
-    <button on="tap:my-lightbox">
-      Open lightbox
-    </button>
-  </div>
-
-  <!--
-    For showing images in a lightbox, AMP also features the [amp-image-lightbox](/documentation/components/reference/amp-image-lightbox.html) component, which doesn't need the image to specified twice.
+    Use an `amp-ad` as a direct child of `amp-sticky-ad`. The height of the `amp-sticky-ad` will be determined based on the height of the `amp-ad` child.
+    The max-height of the sticky-ad is 100px, if the height exceeds 100px then the height would be 100px and overflow content will be hidden.
   -->
 
-  <!-- ## Combination with amp-bind -->
-  <!-- `amp-lightbox` can be opened as a result of `amp-bind` evaluations by binding a boolean value to the `open` attribute. Note that we're also listening to the `lightboxClose` event to reset the state of the variable. -->
-  <div>
-    <amp-lightbox id="my-bindable-lightbox" [open]="showLightbox" layout="nodisplay" on="lightboxClose:AMP.setState({showLightbox: false})">
-      <div class="lightbox" role="button" tabindex="0" on="tap:my-bindable-lightbox.close">
-        <h1>Hello World!</h1>
-      </div>
-    </amp-lightbox>
-    <button on="tap:AMP.setState({showLightbox: true})">
-      Open lightbox
-    </button>
-  </div>
-</body>
+   <amp-sticky-ad layout="nodisplay">
+     <amp-ad width="320" height="50" type="doubleclick" data-slot="/35096353/amptesting/formats/sticky">
+   </amp-ad>
+  </amp-sticky-ad>
 
-</html>
+  <!--
+    `amp-sticky-ad` will display after scroll one viewport height from top provided there is at least one more viewport of content available.
+
+    [tip type="note"]
+    The text that follows is intentionally *Lorem Ipsum* to ensure that there is another viewport from the first one on top to demonstrate `amp-sticky-ad`.
+    [/tip]
+  -->
+
+  <!--
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis, metus a tristique aliquet, enim nibh efficitur sem, ut iaculis urna justo eu diam. Nullam cursus sapien et sodales posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse potenti. Donec vitae ornare risus. Maecenas eleifend ante vel dui laoreet, et porttitor libero rutrum. Nam arcu mi, ullamcorper at risus et, pulvinar ultrices erat. In pellentesque sem vel purus auctor, ut venenatis tellus tristique. Phasellus molestie diam orci, nec gravida turpis bibendum ut. Sed sagittis aliquet lorem sed dictum.
+  -->
+  <!--
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis, metus a tristique aliquet, enim nibh efficitur sem, ut iaculis urna justo eu diam. Nullam cursus sapien et sodales posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse potenti. Donec vitae ornare risus. Maecenas eleifend ante vel dui laoreet, et porttitor libero rutrum. Nam arcu mi, ullamcorper at risus et, pulvinar ultrices erat. In pellentesque sem vel purus auctor, ut venenatis tellus tristique. Phasellus molestie diam orci, nec gravida turpis bibendum ut. Sed sagittis aliquet lorem sed dictum.
+  -->
+  <!--
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis, metus a tristique aliquet, enim nibh efficitur sem, ut iaculis urna justo eu diam. Nullam cursus sapien et sodales posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse potenti. Donec vitae ornare risus. Maecenas eleifend ante vel dui laoreet, et porttitor libero rutrum. Nam arcu mi, ullamcorper at risus et, pulvinar ultrices erat. In pellentesque sem vel purus auctor, ut venenatis tellus tristique. Phasellus molestie diam orci, nec gravida turpis bibendum ut. Sed sagittis aliquet lorem sed dictum.
+  -->
+  <!--
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis, metus a tristique aliquet, enim nibh efficitur sem, ut iaculis urna justo eu diam. Nullam cursus sapien et sodales posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse potenti. Donec vitae ornare risus. Maecenas eleifend ante vel dui laoreet, et porttitor libero rutrum. Nam arcu mi, ullamcorper at risus et, pulvinar ultrices erat. In pellentesque sem vel purus auctor, ut venenatis tellus tristique. Phasellus molestie diam orci, nec gravida turpis bibendum ut. Sed sagittis aliquet lorem sed dictum.
+  -->
+  <!--
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis, metus a tristique aliquet, enim nibh efficitur sem, ut iaculis urna justo eu diam. Nullam cursus sapien et sodales posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse potenti. Donec vitae ornare risus. Maecenas eleifend ante vel dui laoreet, et porttitor libero rutrum. Nam arcu mi, ullamcorper at risus et, pulvinar ultrices erat. In pellentesque sem vel purus auctor, ut venenatis tellus tristique. Phasellus molestie diam orci, nec gravida turpis bibendum ut. Sed sagittis aliquet lorem sed dictum.
+  -->
+  </body>
+ </html>
